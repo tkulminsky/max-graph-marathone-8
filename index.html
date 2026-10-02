@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="" class="logo">Company</a>
+        <div class="header__right">
+          <button class="btn-reset header__search" aria-label="Search">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11.7666"
+                cy="11.7666"
+                r="8.98856"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18.0183 18.4851L21.5423 22"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <nav class="header__nav nav">
+            <ul class="list-reset nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Team</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">We&nbsp;produce the&nbsp;best products</h1>
+          <p class="hero__descr">
+            Mattis quam, lectus et&nbsp;justo amet, tortor, lectus dapibus est.
+            Habitasse efficitur sodales vel est.
+          </p>
+          <button class="btn-reset btn btn--light">Button</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__top grid">
+            <div class="about_col">
+              <ul class="list-reset about__list">
+                <li class="about__item">
+                  <div class="completed">
+                    <div class="completed__value">20,000</div>
+                    <div class="completed__descr">completed projects</div>
+                  </div>
+                </li>
+                <li class="about__item">
+                  <div class="completed">
+                    <div class="completed__value">10,000</div>
+                    <div class="completed__descr">prototypes</div>
+                  </div>
+                </li>
+                <li class="about__item">
+                  <div class="completed">
+                    <div class="completed__value">347</div>
+                    <div class="completed__descr">completed projects</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="about_col">
+              <h2 class="about__title">
+                Amet, mattis dapibus malesuada arcu dapibus nec efficitur
+                et&nbsp;dictum. In&nbsp;sit odio. Tempus leo, dictum.
+              </h2>
+              <div class="about__text">
+                <p class="about__descr">
+                  Amet, mattis dapibus malesuada arcu dapibus nec efficitur
+                  et&nbsp;dictum. In&nbsp;sit odio. Tempus leo, dictum. Sit
+                  mattis mattis lorem cursus velit sit sed et&nbsp;vitae quam,
+                  sed nulla dapibus venenatis odio.
+                </p>
+                <p class="about__descr">
+                  Venenatis sapien aenean adipiscing lacinia nec lacinia lacinia
+                  et&nbsp;quam, ultricies. Dictum. Ipsum sodales sit id&nbsp;nec
+                  sed sodales mattis mollis quis, pellentesque
+                  habitasse&nbsp;ex.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about__video">
+            <video
+              src="video/video.mp4"
+              poster="img/video-poster.jpg"
+              muted
+              preload="metadata"
+              playsinline
+            ></video>
+            <button class="btn-reset about__play" aria-label="Play video">
+              <svg
+                width="100"
+                height="100"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="50" cy="50" r="50" />
+                <path
+                  d="M63 50L44.25 62.9904L44.25 37.0096L63 50Z"
+                  fill="#1D1D1F"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <h2 class="visually-hidden">Portfolio</h2>
+        <div class="container">
+          <ul class="list-reset portfolio__list">
+            <li class="portfolio-item grid">
+              <div class="portfolio-item__col">
+                <h3 class="portfolio-item__title">Et&nbsp;odio</h3>
+                <p class="portfolio-item__descr">
+                  Mauris eget nec nulla dolor&nbsp;ex. Sodales luctus
+                  pellentesque cras ornare lorem luctus lectus sed consectetur
+                  quam, est. Libero, odi
+                </p>
+                <button class="btn-reset btn btn--dark">Button</button>
+              </div>
+              <div class="portfolio-item__col">
+                <img
+                  src="img/port-1.jpg"
+                  alt="Portfolio Et odio"
+                  class="portfolio-item__image"
+                />
+              </div>
+            </li>
+            <li class="portfolio-item portfolio-item--reverse grid">
+              <div class="portfolio-item__col">
+                <h3 class="portfolio-item__title">Integer dapibus dictum</h3>
+                <p class="portfolio-item__descr">
+                  it&nbsp;pulvinar tempus amet dolor dui vulputate tortor,
+                  luctus lorem in&nbsp;nunc eleifend ipsum justo
+                  et&nbsp;venenatis dictumst.
+                </p>
+                <button class="btn-reset btn btn--dark">Button</button>
+              </div>
+              <div class="portfolio-item__col">
+                <img
+                  src="img/port-2.jpg"
+                  alt="Portfolio Et odio"
+                  class="portfolio-item__image"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="quote">
+        <div class="container">
+          <h2 class="quote__title">Quoute</h2>
+          <blockquote class="quote__content">
+            <p class="quote__text">
+              Accumsan vulputate efficitur in&nbsp;amet, vestibulum ornare morbi
+              accumsan leo, est. Consectetur ultricies. Sapien est. Dictumst.
+              Sapien habitasse interdum in&nbsp;amet, lectus molestie
+              vel&nbsp;ut. Malesuada efficitur mattis id&nbsp;mattis aenean
+              interdum lectus quam, dapibus nec augue vulputate leo, ornare
+              elit.
+            </p>
+            <cite class="quote__author">
+              Alex Lee / <span>Co-founder & SEO</span>
+            </cite>
+          </blockquote>
+        </div>
+      </section>
+      <section class="services">
+        <h2 class="visually-hidden">Services</h2>
+        <img
+          src="img/services.jpg"
+          alt=""
+          class="services__image"
+          aria-hidden="true"
+        />
+        <div class="container">
+          <ul class="list-reset services__list">
+            <li class="services-item grid">
+              <div class="services-item__col">
+                <h3 class="services-item__title">Branding</h3>
+              </div>
+              <div class="services-item__col">
+                <p class="services-item__descr">
+                  Quam, tortor, interdum consectetur eleifend integer&nbsp;et.
+                  Accumsan vulputate efficitur in&nbsp;amet, vestibulum ornare
+                  morbi accumsan leo, est. Consectetur ultricies.
+                </p>
+              </div>
+            </li>
+            <li class="services-item grid">
+              <div class="services-item__col">
+                <h3 class="services-item__title">Web-apps</h3>
+              </div>
+              <div class="services-item__col">
+                <p class="services-item__descr">
+                  Malesuada efficitur mattis id&nbsp;mattis aenean interdum
+                  lectus quam, dapibus nec augue vulputate leo, ornare elit.
+                  Pulvinar sed quam, arcu pulvinar nisi ipsum quis, sodales
+                  molestie&nbsp;ex.
+                </p>
+              </div>
+            </li>
+            <li class="services-item grid">
+              <div class="services-item__col">
+                <h3 class="services-item__title">Design</h3>
+              </div>
+              <div class="services-item__col">
+                <p class="services-item__descr">
+                  Cras amet, sed sapien orci, leo, sit ornare risus tortor, ex.
+                  Mauris non orci, sed elit. Cursus ex. Aenean ipsum dolor augue
+                  tempus et&nbsp;molestie ipsum adipiscing leo, sit interdum
+                  venenatis odio.
+                </p>
+              </div>
+            </li>
+            <li class="services-item grid">
+              <div class="services-item__col">
+                <h3 class="services-item__title">Strategy</h3>
+              </div>
+              <div class="services-item__col">
+                <p class="services-item__descr">
+                  Quam, tortor, interdum consectetur eleifend integer&nbsp;et.
+                  Accumsan vulputate efficitur in&nbsp;amet, vestibulum ornare
+                  morbi accumsan leo, est. Consectetur ultricies.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid">
+        <div class="footer__col">
+          <div class="logo footer__logo">Company</div>
+          <address class="footer__address">
+            Dorivit BV, Monitorweg&nbsp;1, Almere 1322BJ, Netherlands
+          </address>
+          <ul class="list-reset footer__social social">
+            <li class="social__item">
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0ZM22.0846 20.8785V31.7596H17.5826V20.8789H15.3333V17.1293H17.5826V14.878C17.5826 11.819 18.8526 10 22.461 10H25.4651V13.7501H23.5873C22.1827 13.7501 22.0897 14.2741 22.0897 15.2521L22.0846 17.1288H25.4863L25.0883 20.8785H22.0846Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="Telegram"
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40ZM16.3333 29.1667C16.8198 29.1667 17.0421 28.9502 17.3107 28.6887L17.3333 28.6667L19.7356 26.3308L24.7333 30.0232C25.6531 30.5307 26.3169 30.2679 26.546 29.1693L29.8268 13.7088C30.1627 12.3621 29.3135 11.7513 28.4336 12.1507L9.1686 19.5792C7.85358 20.1067 7.86125 20.8403 8.9289 21.1672L13.8727 22.7103L25.3182 15.4894C25.8585 15.1618 26.3544 15.3379 25.9474 15.6992L16.6738 24.0679L16.6737 24.0678L16.6737 24.068L16.6733 24.0683L16.6736 24.0685L16.3333 29.1667Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="Google Plus"
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20ZM16.34 19.4286V21.6H19.9439C19.7987 22.5319 18.8546 24.3324 16.34 24.3324C14.1704 24.3324 12.4003 22.541 12.4003 20.3333C12.4003 18.1257 14.1704 16.3343 16.34 16.3343C17.5746 16.3343 18.4007 16.859 18.8727 17.3114L20.5975 15.6557C19.49 14.6243 18.0557 14 16.34 14C12.8269 14 9.98557 16.8319 9.98557 20.3333C9.98557 23.8348 12.8269 26.6667 16.34 26.6667C20.0075 26.6667 22.4403 24.0971 22.4403 20.4781C22.4403 20.0619 22.3949 19.7452 22.3404 19.4286H16.34ZM28.1412 19.4286H29.9567V21.2381H28.1412V23.0476H26.3256V21.2381H24.51V19.4286H26.3256V17.619H28.1412V19.4286Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h2 class="footer__title">
+            Id&nbsp;sodales interdum dui mollis non in&nbsp;odio
+          </h2>
+          <form action="#" class="footer__form">
+            <input
+              type="email"
+              name="email"
+              class="footer__input"
+              placeholder="E-mail"
+            />
+            <button class="btn-reset footer__btn" aria-label="Send E-mail">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 5L15 12L8 19"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
